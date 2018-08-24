@@ -1,0 +1,17 @@
+---
+title: "html test"
+author: "David Zaronas"
+date: "August 24, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+shampoo <- read.delim("shampoo test dataset.txt")
+shampoo
+plot(shampoo)
+```
